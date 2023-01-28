@@ -174,7 +174,12 @@ let age = 21;
 const minAge = 21;
 
 if(minAge <= age) {
+  //FIX - condition is correct. Both console logs are inversed. console.log is incorrect. Instructions say if minAge is less than age, you can enter
+  // should be: console.log('enter)
   console.log('no entry');
+
+// FIX - console.log is incorrect
+// should be: console.log('no entry')
 } else {
   console.log('enter');
 }
