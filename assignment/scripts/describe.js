@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called name and set it equal to 'Dane' as a string variable.
+// Then we check if Name is equal to or an (exact match) to 'Mary. If it is, we console.log( 'Hi, Mary!' )
+// if it is not equal to or a true statement, then we console.log("How do you do?")
+//We run the code and it is not a true statement, we console.log("How do you do?")
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We want to find out the value of variable secret and we make a variable called code and set it to 123 as a number
+// We check if code is exactly equal to 123, and if it is we set the value for variable secret to "super" and multiply value for code by 2
+// Code is now 246. We check if code is greater than 250, if it is, secret is now 'duper'. 
+//but it is not. secret still equals super. We console.log(secret)
 
 //CODE
 /*
@@ -70,10 +70,14 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called isStudent and set it to true, make a variable called age set it to 34 (number), and var zip and set it to 55407.
+// We check if var isStudent is true AND var zip is greater then 80000. If so, console.log "You're a student on the West Coast"
+// We check if var isStudent is false OR var age is less than 30. If so, console.log "What are your hobbies?"
+// We check if var isStudent is true. If so, console.log "Welcome to Prime".
+//If none of those is true, we console log. "How about the weather?". 
+// isStudent is true so we console.log "Welcome to prime".
+
+
 
 //CODE
 /*
