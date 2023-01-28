@@ -154,8 +154,12 @@ if (mix === true) {
 
 /*
 let temp = 40;
+// FIX - instructions don't say anything about time being a constant and time hasn't been declared before.
+// should be: let time = 4;
 const time = 4;
 
+// FIX - wrong syntax. Instructions say AND (&&) but code for OR (||) was used
+// Should be - if (temp > 39 && time >= 4)
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
