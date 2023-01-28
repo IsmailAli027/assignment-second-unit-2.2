@@ -134,11 +134,16 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - The variables are set to the wrong values, they're inversed.
+// Should be: let colorOne = 'blue';
+//            let colorTwo = 'red';
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
+// FIX - There is a missing variable. Only one variable is declared.
+// missing: colorTwo = 'purple';
   colorOne = 'purple';
 }
 */
